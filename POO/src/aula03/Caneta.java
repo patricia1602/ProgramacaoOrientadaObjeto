@@ -1,7 +1,6 @@
 package aula03;
 
 public class Caneta {
-
     public String modelo;
     public String cor;
     private float ponta;

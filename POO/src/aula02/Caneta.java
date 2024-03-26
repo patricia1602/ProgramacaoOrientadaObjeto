@@ -1,7 +1,6 @@
 package aula02;
 
 public class Caneta {
-
     // Atributos da caneta
     String modelo;
     String cor;
