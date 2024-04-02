@@ -1,4 +1,4 @@
-package exe01;
+package ProjetoLivro;
 
 public class Livro implements Publicacao {
     private String titulo;

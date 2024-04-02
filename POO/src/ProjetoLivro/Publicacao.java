@@ -1,4 +1,4 @@
-package exe01;
+package ProjetoLivro;
 
 public interface Publicacao {
     public void abrir();

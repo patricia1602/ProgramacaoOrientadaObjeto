@@ -1,4 +1,4 @@
-package exe01;
+package ProjetoLivro;
 
 public class ProjetoLivro {
     public static void main(String[] args) {
@@ -14,6 +14,7 @@ public class ProjetoLivro {
 
         livro[1].abrir();
         livro[1].folhear(100);
-        System.out.println(livro[1].detahes());
+        System.out.println(livro[1
+        ].detahes());
     }
 }

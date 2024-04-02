@@ -1,5 +1,5 @@
-package exe01;
-
+package ProjetoLivro;
+ 
 public class Pessoa {
     private String nome;
     private int idade;
