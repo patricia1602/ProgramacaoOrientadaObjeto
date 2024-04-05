@@ -28,7 +28,9 @@ public class Video extends AcoesVideo {
     }
 
     public void setAvaliacao(int avaliacao) {
-        this.avaliacao = avaliacao;
+        int nova;
+        nova = (this.avaliacao + avaliacao) / this.views;
+        this.avaliacao = nova;
     }
 
     public int getViews() {
@@ -47,7 +49,7 @@ public class Video extends AcoesVideo {
         this.curtidas = curtidas;
     }
 
-    public boolean isReproduzindo() {
+    public boolean getReproduzindo() {
         return reproduzindo;
     }
 
